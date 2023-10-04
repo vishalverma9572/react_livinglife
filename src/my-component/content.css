@@ -1,0 +1,190 @@
+.container{
+    width: 95%;
+    margin: auto;
+}
+.article-title{
+    font-size: 2.4rem;
+    
+    font-family: 'Lora ',serif;
+    font-weight: 540;
+    color: #143774;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+img{
+    max-height: 300px;
+    width: 100% ;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.8em;
+}
+/* ---may be delete karna pare ---for recent article detaile me img upar and title niche karne ke liye */
+@media   (max-width:900px){
+    .article-recent{
+        display: flex;
+        flex-direction: column;
+    }
+    .artice-recent-secondary{
+        order: 1;
+        margin-bottom: 3.5em;
+    }
+    .widget-recent-post-image{
+        margin-bottom: 2.5em;
+    }
+}
+/* ------- */
+
+
+
+.article-info{
+    font-family: 'Ubuntu light', serif;
+    font-size: 1.6rem;
+    margin-bottom: 0.7em;
+    color: #2b2929;
+}
+.article-body{
+    font-family: 'Ubuntu light','Lora' ;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+     
+}
+/* ---- may be delete karna pade--- */
+
+.container a{
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1.7rem;
+    font-family: 'Ubuntu bold', serif;
+    text-decoration: none;
+    color: #1792d2;
+    
+}
+
+p{
+    margin-bottom: 0.7em;
+}
+.widget-title a{
+    font-size: 2rem;
+    font-family: 'Lora ',serif;
+    font-weight: 540; 
+    margin-bottom: 0.6em;
+}
+.widget-body{
+    font-family: 'Ubuntu light','Lora' ;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-weight: 550;
+}
+.widget-recent-post-title{
+    font-size: 1.6rem;
+    font-family: 'Lora ',serif,'Ubuntu light' ;
+    color: #143774;
+    margin-bottom: 0.7em;
+
+}
+
+@media (min-width:900px){
+    
+   
+    .container{
+        display: flex;
+        max-width:900px ;
+        margin: auto;
+        margin-top: 0.85em;
+        width: 60%;
+        justify-content: space-between;
+    }
+    main{
+        width: 75%;
+    
+    }
+    .article-title{
+        font-size: 1.65rem;
+        font-family: 'Lora ',serif;
+        font-weight: 500;
+        color: #143774;
+    }
+    .article-info{
+        font-family: 'Ubuntu light';
+        font-size: 1.05rem;
+    }
+    .article-body{
+        font-family: 'Ubuntu light';
+        font-size: 1.125rem;
+        
+    }
+    article a{
+        text-decoration: none;
+        
+        color: #1792d2;
+        font-family: 'Ubuntu bold';
+    }
+    .container a{
+        font-size: 1.25rem;
+    }
+    article a:hover,
+    article a:focus{
+        text-decoration: underline;
+        color: #143774;
+    }
+    strong{
+        font-weight: 600;
+        color: #1792d2;
+    }
+    .sidebar{
+        width: 20%;
+    }
+    main img{
+        margin-top: 0.3em;
+    }
+    .widget-title a{
+        font-size: 1.6rem;
+    }
+    .widget-body{
+        font-size: 1.2rem;
+        margin-bottom: 0.7em;
+        padding-bottom: 0.8em;
+        border-bottom: 2px solid grey;
+    }
+    .widget-recent-post-title{
+        font-size: 1.4rem;
+        /* ---may be removed */
+        border-top: 2px solid grey;
+        padding-top: 0.7em;
+    }
+    .article-featured{
+        border-bottom: 2px solid grey;
+        padding-bottom: 0.7em;
+        display: flex;
+        flex-direction: column;
+    }
+    .article-featured .article-image{
+        order: -2;
+    }
+    .article-featured .article-info{
+        order: -1;
+    }
+    .article-recent{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.8em;
+        margin-bottom: 1.8em;
+    }
+    .artice-recent-secondary{
+        width: 64%;
+        order: 1;
+    }
+    .article-recent-main{
+        width: 33%;
+        order: 0;
+    }
+    .article-recent .article-title{
+        margin-top: 0px;
+        
+    }
+    
+    
+    
+}
+

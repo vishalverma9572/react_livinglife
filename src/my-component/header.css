@@ -1,0 +1,95 @@
+/* header */
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  header{
+    background-color: rgb(225, 224, 224);
+    height: 20vh;
+    
+    
+  }
+  .header-container{
+    width: 60%;
+    max-width: 900px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+  }
+  nav{
+    width: 50%;
+    max-width: 350px;
+  }
+  nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+  .header-heading h2{
+    color: #143774;
+    margin-bottom: 0.3em;
+    font-size: 2.2rem;
+    font-family: 'Lora', serif;
+  }
+  .header-heading .subtitle{
+    color: #1792d2;
+    text-align: center;
+    font-weight: 600;
+    font-size: .95rem;
+  }
+  header a{
+    text-decoration: none;
+    color: rgba(119, 119, 76, 0.847);
+    font-weight: 700;
+  }
+  header a:hover{
+    color: #1792d2;
+    font-size: 1.05em;
+    
+    
+  }
+  #hamburger{
+    display: none;
+    
+  }
+  /* ----media query only for header-- */
+  @media (max-width:1275px){
+    .header-container{
+        display: block;
+        width: 95%;
+        
+    }
+    .header-heading{
+        text-align: center;
+        padding: 0.8em 0;
+    }
+    header{
+        height: fit-content;
+    }
+    nav ul{
+        display: block;
+        height: 0;
+        overflow: hidden;
+        width: 100%;
+        
+        padding: 0.5em 0;
+    }
+    nav ul li{
+        margin-top: 0.5em;
+    }
+    #hamburger{
+        display: block;
+    }
+    .cmpheigh{
+        height: 80px;
+        
+    }
+    
+  }
